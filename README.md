@@ -14,4 +14,4 @@
 
 ## Layout
 
-<img src="src/img/vm_thumbnail.png">
+<img src="src/img/vm_thumbnail.png" type="image/png">
