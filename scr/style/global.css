@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgb(46, 45, 88) 0%, rgb(56, 56, 97) 50%);
+  display: flex;
+  align-items: start;
+  align-content: start;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.title {
+  width: 100vw;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.vox-machina-group {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  gap: 10vw;
+}

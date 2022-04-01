@@ -1,0 +1,83 @@
+.listagem {
+  max-width: 200px;
+}
+
+.character {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background-color: #6b727a;
+  color: #fff;
+  padding: 0 5px;
+  cursor: pointer;
+  border-radius: 30px 0 0 30px;
+  min-height: 65px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+  transition: 0.15s ease-in-out;
+}
+
+.character:hover {
+  transform: scale(1.05);
+}
+
+.character img {
+  background-color: #0000002f;
+  margin-left: 5px;
+  width: 25%;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.character span {
+  /* padding-right: 20px; */
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 80px;
+}
+
+.cleric.ativo {
+  background: linear-gradient(135deg, #000000 0%, #f8d030b4 60%);
+}
+
+.bard.ativo {
+  background: linear-gradient(135deg, #050005 0%, #ac17a0ab 60%);
+}
+
+.barbarian.ativo {
+  background: linear-gradient(135deg, #000000 0%, #c70c0c8e 60%);
+}
+
+.gunslinger.ativo {
+  background: linear-gradient(135deg, #000000 0%, #2724ca93 60%);
+}
+
+.rogue.ativo {
+  background: linear-gradient(135deg, #000000 0%, #494650 40%);
+}
+
+.ranger.ativo {
+  background: linear-gradient(135deg, #000000 0%, #2da77ec2 60%);
+}
+
+.druid.ativo {
+  background: linear-gradient(135deg, #000000 0%, #90bb9b 60%);
+}
+
+/* 
+    background: linear-gradient(135deg, #000000 0%, #f8d030b4 60%);
+  
+    background: linear-gradient(135deg, #050005 0%, #ac17a0ab 60%);
+  
+    background: linear-gradient(135deg, #000000 0%, #c70c0c8e 60%);
+  
+    background: linear-gradient(135deg, #000000 0%, #2724ca93 60%);
+  
+    background: linear-gradient(135deg, #000000 0%, #494650 40%);
+  
+    background: linear-gradient(135deg, #000000 0%, #2da77ec2 60%);
+  
+    background: linear-gradient(135deg, #000000 0%, #90bb9b 60%);
+  
+   */

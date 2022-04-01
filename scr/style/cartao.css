@@ -1,0 +1,140 @@
+.card {
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.404) 0px 7px 29px 10px;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.card-top {
+  padding: 20px 30px 0;
+  background: url("../img/vm_logo_opac.png") top center / 65% no-repeat;
+  background-position-y: 15%;
+  background-position-x: 15%;
+}
+
+.nome {
+  margin-bottom: 5px;
+}
+
+.tipo {
+  font-size: 12px;
+  background-color: #fff;
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 2px 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.detalhes {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detalhes h2 {
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0;
+}
+
+.detalhes span {
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.cartao-imagem {
+  display: flex;
+  justify-content: center;
+  margin: 5px auto 0;
+  width: 300px;
+  height: 300px;
+  transform: translateY(-12px);
+}
+
+.card img {
+  max-height: 120%;
+}
+
+.aberto img {
+  animation-name: slide;
+  animation-duration: 0.3s;
+}
+
+@keyframes slide {
+  from {
+    opacity: 0;
+    max-height: 60%;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.cartao-informacoes {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 80px 20px 20px;
+  margin-top: -70px;
+  border-radius: 0 0 8px 8px;
+}
+
+.cartao-informacoes h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #6b727a;
+}
+
+.ability-scores,
+.combat-scores {
+  padding: 0 10px;
+  width: 180px;
+}
+
+.ability-scores ul li,
+.combat-scores ul li {
+  /* border-bottom: 1px solid #c3c4c5; */
+  padding: 0 0 5;
+  margin-bottom: 5px;
+  font-size: 13.5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ability-scores ul li {
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+.card.aberto {
+  display: block;
+}
+
+.class-cleric {
+  background: linear-gradient(135deg, #000000 0%, #f8d030b4 60%);
+}
+
+.class-bard {
+  background: linear-gradient(135deg, #050005 0%, #ac17a0ab 60%);
+}
+
+.class-barbarian {
+  background: linear-gradient(135deg, #000000 0%, #c70c0c8e 60%);
+}
+
+.class-gunslinger {
+  background: linear-gradient(135deg, #000000 0%, #2724ca93 60%);
+}
+
+.class-rogue {
+  background: linear-gradient(135deg, #000000 0%, #494650 40%);
+}
+
+.class-ranger {
+  background: linear-gradient(135deg, #000000 0%, #2da77ec2 60%);
+}
+
+.class-druid {
+  background: linear-gradient(135deg, #000000 0%, #90bb9b 60%);
+}

@@ -1,0 +1,83 @@
+@media (max-width: 810px) {
+  body {
+    font-size: 12px;
+  }
+
+  .title-img {
+    max-width: 695px;
+    width: 80vw;
+  }
+
+  .vox-machina-group {
+    padding: 30px 20px;
+    width: 100vw;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    max-width: 300px;
+    margin-left: 0;
+  }
+
+  .card-top {
+    padding: 15px 25px 0;
+    background: url(../img/vm_logo_opac.png) top center / 65% no-repeat;
+    background-position-y: 10px;
+  }
+
+  .cartao-imagem {
+    width: 200px;
+    height: 200px;
+  }
+
+  .cartao-informacoes {
+    padding: 50px 10px 10px;
+    margin-top: -50px;
+  }
+
+  .ability-scores ul li,
+  .combat-scores ul li {
+    font-size: 12px;
+  }
+
+  /* .informacoes {
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+    } */
+
+  .cartao-informacoes h3 {
+    font-size: 16px;
+  }
+
+  .listagem {
+    max-width: 300px;
+  }
+
+  .listagem ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .character {
+    width: 140px;
+    border-radius: 25px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .vox-machina-group {
+    padding: 30px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .listagem ul {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+  }
+}
